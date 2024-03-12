@@ -1,0 +1,71 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "float_data/.zarray": {
+            "chunks": [
+                2,
+                2,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                5,
+                5
+            ],
+            "zarr_format": 2
+        },
+        "float_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "int_data/.zarray": {
+            "chunks": [
+                2,
+                2,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                5,
+                5
+            ],
+            "zarr_format": 2
+        },
+        "int_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
