@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "string_data/.zarray": {
+            "chunks": [
+                3,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|S5",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                8,
+                8
+            ],
+            "zarr_format": 2
+        },
+        "string_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y"
+            ]
+        },
+        "uint_data/.zarray": {
+            "chunks": [
+                3,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "|u1",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                8,
+                8
+            ],
+            "zarr_format": 2
+        },
+        "uint_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y"
+            ]
+        },
+        "utf8_data/.zarray": {
+            "chunks": [
+                3,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U5",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                8,
+                8
+            ],
+            "zarr_format": 2
+        },
+        "utf8_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}

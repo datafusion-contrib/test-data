@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "byte_data/.zarray": {
+            "chunks": [
+                3,
+                3
+            ],
+            "compressor": null,
+            "dtype": "|u1",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                9,
+                9
+            ],
+            "zarr_format": 2
+        },
+        "byte_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y"
+            ]
+        },
+        "float_data/.zarray": {
+            "chunks": [
+                3,
+                3
+            ],
+            "compressor": null,
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                9,
+                9
+            ],
+            "zarr_format": 2
+        },
+        "float_data/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x",
+                "y"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
