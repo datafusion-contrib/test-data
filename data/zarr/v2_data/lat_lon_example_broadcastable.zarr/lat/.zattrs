@@ -1,0 +1,16 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "x"
+    ],
+    "broadcast_params": {
+        "axis": 1,
+        "target_chunks": [
+            4,
+            4
+        ],
+        "target_shape": [
+            11,
+            11
+        ]
+    }
+}
